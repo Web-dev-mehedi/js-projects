@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payooo!</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="tailwind.config.js"></script>
+</head>
+<body>
+
+
+    <section>
+
+      <div class="flex justify-center">
+        <div class="mockup-phone w-[600px] bg-white p-10 ">
+            <div class="camera"></div>
+            <div class="">
+                <div class="flex justify-between align-top gap-5 mb-10">
+                     <div class="flex justify-between align-top gap-5">
+                          <img src="asset/images/Group (1).png" alt="">
+                         <div class="">
+                            <h1 class="text-[#080808] text-lg font-extrabold"><span>$</span><span id="total-amount">45000</span></h1>
+                            <p class="text-[#08080880] text-base font-normal ">Available Balance</p>
+                         </div>
+                     </div>
+
+                     <div class="border border-[#0808081A] px-2 py-3 rounded-md">
+                        <button id="log-out" class="text-base font-normal" type="button"><img class="inline-block mr-2" src="asset/images/Frame.png" alt="">Log Out</button>
+                    </div>
+                 </div>
+                 <hr>
+
+                
+
+                <div class="">
+                    <div class="py-10 space-y-4">
+                        <h1 class="text-2xl font-bold text-[#080808]">🔥 Welcome to Payooo!</h1>
+                        <p class="text-[#08080880] text-base font-medium ">Enjoy easy and convenient financial services with us. <br> charge is low and </p>
+                    </div>
+
+                    <div class=" grid grid-cols-3 gap-4">
+                        <div id="addmoney"  class="border border-[#0808081A] text-center p-4 rounded-md bg-white">
+                            <img src="./asset/images/financial 1.png" alt="" class="w-14 m-auto">
+                            <h3 class=" text-[#080808B3] font-medium text-lg">Add Money</h3>
+                        </div>
+
+                        <div id="addmoney1" class=" border border-[#0808081A] text-center p-4 rounded-md bg-white">
+                            <img src="./asset/images/financial 1.png" alt="" class="w-14 m-auto">
+                            <h3 class=" text-[#080808B3] font-medium text-lg">Cashout</h3>
+                        </div>
+
+                        <div id="addmoney2" class="border border-[#0808081A] text-center p-4 rounded-md bg-white">
+                            <img src="./asset/images/financial 1.png" alt="" class="w-14 m-auto">
+                            <h3 class=" text-[#080808B3] font-medium text-lg">Transfer Money</h3>
+                        </div>
+
+                        <div class="border border-[#0808081A] text-center p-4 rounded-md bg-white">
+                            <img src="./asset/images/financial 1.png" alt="" class="w-14 m-auto">
+                            <h3 class=" text-[#080808B3] font-medium text-lg">Get Bonus</h3>
+                        </div>
+
+                        <div class="border border-[#0808081A] text-center p-4 rounded-md bg-white">
+                            <img src="./asset/images/financial 1.png" alt="" class="w-14 m-auto">
+                            <h3 class=" text-[#080808B3] font-medium text-lg">Pay Bill</h3>
+                        </div>
+
+                        <div class="border border-[#0808081A] text-center p-4 rounded-md bg-white">
+                            <img src="./asset/images/financial 1.png" alt="" class="w-14 m-auto">
+                            <h3 class=" text-[#080808B3] font-medium text-lg">Transactions</h3>
+                        </div>
+                       
+                    </div>
+                </div>
+                
+                <!-- add amount from -->
+                <div id="hidden" class="hero bg-white min-h-screen">
+                    
+                    <form  class="w-full mt-8">
+                        <h2 class="text-2xl text-black font-semibold underline">Add Money</h2>
+                        <div class="form-control">
+                          <label class="label">
+                            <span class="label-text">Amount to Add</span>
+                          </label>
+                          <input id="amount" type="text" placeholder="Add Amount to withdraw" class="input input-bordered" required />
+                        </div>
+                        <div class="form-control">
+                          <label class="label">
+                            <span class="label-text">Pin Number</span>
+                          </label>
+                          <input id= "pin" type="password" placeholder="Enter 4 digit pin number" class="input input-bordered" required />
+                          <label class="label">
+                            <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                          </label>
+                        </div>
+                        <div class="form-control mt-6">
+                          <button id="submit" class="btn btn-primary">Add</button>
+                        </div>
+                      </form>
+                  </div>
+
+                  <!--cash out  -->
+
+                  <div id="hidden1" class="hero bg-white min-h-screen">
+                    
+                    <form  class="w-full mt-8">
+                        <h2 class="text-2xl text-black font-semibold underline">Cash Out</h2>
+                        
+                        <div class="form-control">
+                            <label class="label">
+                              <span class="label-text">Agent Number</span>
+                            </label>
+                            <input id="agent-number" type="text" placeholder="Enter 11 digit number" class="input input-bordered" required />
+                          </div>
+
+
+                        <div class="form-control">
+                          <label class="label">
+                            <span class="label-text">Amount</span>
+                          </label>
+                          <input id="amount1" type="text" placeholder="Enter amount to withdraw" class="input input-bordered" required />
+                        </div>
+
+                        <div class="form-control">
+                          <label class="label">
+                            <span class="label-text">Pin Number</span>
+                          </label>
+                          <input id= "pin1" type="password" placeholder="Enter 4 digit pin number" class="input input-bordered" required />
+                        </div>
+                        <div class="form-control mt-6">
+                          <button id="submit1" class="btn btn-primary">Withdraw Money</button>
+                        </div>
+                      </form>
+                  </div>
+
+                  <!-- transfer money -->
+
+                  <div id="hidden2" class="hero bg-white min-h-screen">
+                    
+                    <form  class="w-full mt-8">
+                        <h2 class="text-2xl text-black font-semibold underline">Transfer Money</h2>
+                        <div class="form-control">
+                          <label class="label">
+                            <span class="label-text">User Account Number</span>
+                          </label>
+                          <input id="user-number" type="text" placeholder="Enter 11 digit number" class="input input-bordered" required />
+                        </div>
+
+                        <div class="form-control">
+                            <label class="label">
+                              <span class="label-text">Amount</span>
+                            </label>
+                            <input id="amount2" type="text" placeholder="Enter amount to transfer" class="input input-bordered" required />
+                          </div>
+
+                        <div class="form-control">
+                          <label class="label">
+                            <span class="label-text">Pin Number</span>
+                          </label>
+                          <input id= "pin2" type="password" placeholder="Enter 4 digit pin number" class="input input-bordered" required />
+                        </div>
+                        <div class="form-control mt-6">
+                          <button id="submit2" class="btn btn-primary">Send Now</button>
+                        </div>
+                      </form>
+                  </div>
+
+            </div>
+          </div>
+      </div>
+
+
+
+        
+    </section>
+
+    <script>
+
+
+
+
+ 
+
+
+
+
+    </script>
+     
+     <script src="script.js"></script>
+</body>
+</html>

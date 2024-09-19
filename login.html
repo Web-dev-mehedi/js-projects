@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+   <div class="flex justify-center">
+    <div class="mockup-phone ">
+        <div class="camera"></div>
+        <div class="display">
+          <div class="artboard artboard-demo phone-3 bg-red-50">
+            <div class="hero bg-white min-h-screen">
+                <form class="card-body">
+                    <div class="form-control">
+                      <label class="label">
+                        <span class="label-text">Number</span>
+                      </label>
+                      <input id="number" type="text" placeholder="Enter your number" class="input input-bordered" required />
+                    </div>
+                    <div class="form-control">
+                      <label class="label">
+                        <span class="label-text">Pin</span>
+                      </label>
+                      <input id= "pin" type="password" placeholder="Enter your pin" class="input input-bordered" required />
+                      <label class="label">
+                        <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                      </label>
+                    </div>
+                    <div class="form-control mt-6">
+                      <button id="submit" class="btn btn-primary">Login</button>
+                    </div>
+                  </form>
+              </div>
+
+          </div>
+        </div>
+      </div>
+   </div>
+
+
+    <script src="./script.js"></script>
+
+    <script>
+         document.getElementById('submit').addEventListener('click', function(event){
+            event.preventDefault();// auto reload na hoyar jonno
+             const input1 = document.getElementById('number').value;
+             const input2 = document.getElementById('pin').value;
+             if(input1 !== number && input2 !== pin){
+                  alert('sthik pin and number din')
+             }
+            else{
+                window.location.href ="./home.html";
+            }
+      
+         })
+
+    </script>
+</body>
+</html>

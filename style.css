@@ -1,9 +1,9 @@
 .click{
- background-color: #0874F20D;
- border:1px solid blue;
+ background-color: #0874F20D !important;
+ border:1px solid blue!important;
 
 }
 
 .click-h3{
- color: blue;
+ color: blue!important;
 }

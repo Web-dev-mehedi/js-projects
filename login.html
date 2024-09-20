@@ -50,11 +50,12 @@
             event.preventDefault();// auto reload na hoyar jonno
              const input1 = document.getElementById('number').value;
              const input2 = document.getElementById('pin').value;
-             if(input1 !== number && input2 !== pin){
-                  alert('sthik pin and number din')
+             if(input1 === number && input2 === pin ){
+              window.location.href ="./home.html";
+                 
              }
             else{
-                window.location.href ="./home.html";
+              alert('sthik pin and number din')
             }
       
          })

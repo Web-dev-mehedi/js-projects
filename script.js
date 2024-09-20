@@ -27,12 +27,23 @@ document.getElementById('addmoney').addEventListener('click', function(){
     document.getElementById('addmoney').classList.add('click');
     document.getElementById('click-h3').classList.add('click-h3');
     //
+    document.getElementById('addmoney1').classList.remove('click');
+    document.getElementById('click-h3-1').classList.remove('click-h3');
+  
+    //
     document.getElementById('addmoney2').classList.remove('click');
-document.getElementById('click-h3-2').classList.remove('click-h3');
-//
-document.getElementById('addmoney1').classList.remove('click');
-document.getElementById('click-h3-1').classList.remove('click-h3');
+    document.getElementById('click-h3-2').classList.remove('click-h3');
+    //
+    document.getElementById('addmoney3').classList.remove('click');
+    document.getElementById('click-h3-3').classList.remove('click-h3');
+    //
+    document.getElementById('addmoney4').classList.remove('click');
+    document.getElementById('click-h3-4').classList.remove('click-h3');
+    //
+    document.getElementById('addmoney5').classList.remove('click');
+    document.getElementById('click-h3-5').classList.remove('click-h3');
     })
+
 
     //
     document.getElementById('submit').addEventListener('click', function(event){
@@ -62,16 +73,26 @@ document.getElementById('click-h3-1').classList.remove('click-h3');
     document.getElementById('hidden1').style.display ='contents';
     document.getElementById('hidden').style.display ='none';
     document.getElementById('hidden2').style.display ='none';
+    
 
-    //
     document.getElementById('addmoney1').classList.add('click');
     document.getElementById('click-h3-1').classList.add('click-h3');
     //
     document.getElementById('addmoney').classList.remove('click');
-document.getElementById('click-h3').classList.remove('click-h3');
-//
-document.getElementById('addmoney2').classList.remove('click');
-document.getElementById('click-h3-2').classList.remove('click-h3');
+    document.getElementById('click-h3').classList.remove('click-h3');
+  
+    //
+    document.getElementById('addmoney2').classList.remove('click');
+    document.getElementById('click-h3-2').classList.remove('click-h3');
+    //
+    document.getElementById('addmoney3').classList.remove('click');
+    document.getElementById('click-h3-3').classList.remove('click-h3');
+    //
+    document.getElementById('addmoney4').classList.remove('click');
+    document.getElementById('click-h3-4').classList.remove('click-h3');
+    //
+    document.getElementById('addmoney5').classList.remove('click');
+    document.getElementById('click-h3-5').classList.remove('click-h3');
   
     })
 
@@ -107,17 +128,26 @@ document.getElementById('click-h3-2').classList.remove('click-h3');
     document.getElementById('hidden').style.display ='none';
     document.getElementById('hidden1').style.display ='none';
 
-//
-document.getElementById('addmoney2').classList.add('click');
-document.getElementById('click-h3-2').classList.add('click-h3');
-//
-document.getElementById('addmoney').classList.remove('click');
-document.getElementById('click-h3').classList.remove('click-h3');
-//
-document.getElementById('addmoney1').classList.remove('click');
-document.getElementById('click-h3-1').classList.remove('click-h3');
+    document.getElementById('addmoney2').classList.add('click');
+    document.getElementById('click-h3-2').classList.add('click-h3');
+    //
+    document.getElementById('addmoney').classList.remove('click');
+    document.getElementById('click-h3').classList.remove('click-h3');
+    //
+    document.getElementById('addmoney1').classList.remove('click');
+    document.getElementById('click-h3-1').classList.remove('click-h3');
+    //
+    document.getElementById('addmoney3').classList.remove('click');
+    document.getElementById('click-h3-3').classList.remove('click-h3');
+    //
+    document.getElementById('addmoney4').classList.remove('click');
+    document.getElementById('click-h3-4').classList.remove('click-h3');
+    //
+    document.getElementById('addmoney5').classList.remove('click');
+    document.getElementById('click-h3-5').classList.remove('click-h3');
    
     })
+
 
     //
     document.getElementById('submit2').addEventListener('click', function(event){
@@ -143,3 +173,89 @@ document.getElementById('click-h3-1').classList.remove('click-h3');
        
     })
 
+//get bonus
+
+document.getElementById('addmoney3').addEventListener('click', function(){
+    // document.getElementById('hidden2').style.display ='contents';
+    document.getElementById('hidden').style.display ='none';
+    document.getElementById('hidden1').style.display ='none';
+    document.getElementById('hidden2').style.display ='none';
+
+//
+document.getElementById('addmoney3').classList.add('click');
+document.getElementById('click-h3-3').classList.add('click-h3');
+//
+document.getElementById('addmoney').classList.remove('click');
+document.getElementById('click-h3').classList.remove('click-h3');
+//
+document.getElementById('addmoney1').classList.remove('click');
+document.getElementById('click-h3-1').classList.remove('click-h3');
+//
+document.getElementById('addmoney2').classList.remove('click');
+document.getElementById('click-h3-2').classList.remove('click-h3');
+//
+document.getElementById('addmoney4').classList.remove('click');
+document.getElementById('click-h3-4').classList.remove('click-h3');
+//
+document.getElementById('addmoney5').classList.remove('click');
+document.getElementById('click-h3-5').classList.remove('click-h3');
+    })
+
+
+ //
+ 
+ 
+ document.getElementById('addmoney4').addEventListener('click', function(){
+    // document.getElementById('hidden2').style.display ='contents';
+    document.getElementById('hidden').style.display ='none';
+    document.getElementById('hidden1').style.display ='none';
+    document.getElementById('hidden2').style.display ='none';
+
+// pay bill
+document.getElementById('addmoney4').classList.add('click');
+document.getElementById('click-h3-4').classList.add('click-h3');
+//
+document.getElementById('addmoney').classList.remove('click');
+document.getElementById('click-h3').classList.remove('click-h3');
+//
+document.getElementById('addmoney1').classList.remove('click');
+document.getElementById('click-h3-1').classList.remove('click-h3');
+//
+document.getElementById('addmoney2').classList.remove('click');
+document.getElementById('click-h3-2').classList.remove('click-h3');
+//
+document.getElementById('addmoney3').classList.remove('click');
+document.getElementById('click-h3-3').classList.remove('click-h3');
+//
+document.getElementById('addmoney5').classList.remove('click');
+document.getElementById('click-h3-5').classList.remove('click-h3');
+    })
+
+//trasection
+
+document.getElementById('addmoney5').addEventListener('click', function(){
+    // document.getElementById('hidden2').style.display ='contents';
+    document.getElementById('hidden').style.display ='none';
+    document.getElementById('hidden1').style.display ='none';
+    document.getElementById('hidden2').style.display ='none';
+
+//
+document.getElementById('addmoney5').classList.add('click');
+document.getElementById('click-h3-5').classList.add('click-h3');
+//
+document.getElementById('addmoney').classList.remove('click');
+document.getElementById('click-h3').classList.remove('click-h3');
+//
+document.getElementById('addmoney1').classList.remove('click');
+document.getElementById('click-h3-1').classList.remove('click-h3');
+//
+document.getElementById('addmoney2').classList.remove('click');
+document.getElementById('click-h3-2').classList.remove('click-h3');
+//
+document.getElementById('addmoney3').classList.remove('click');
+document.getElementById('click-h3-3').classList.remove('click-h3');
+//
+document.getElementById('addmoney4').classList.remove('click');
+document.getElementById('click-h3-4').classList.remove('click-h3');
+
+    })

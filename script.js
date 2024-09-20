@@ -53,6 +53,7 @@ document.getElementById('addmoney').addEventListener('click', function(){
     document.getElementById('hidden1').style.display ='contents';
     document.getElementById('hidden').style.display ='none';
     document.getElementById('hidden2').style.display ='none';
+    document.getElementById('hidden2').style.backgroundColor ='#f4f5f7';
     document.getElementById('addmoney1').classList.add('click');
     document.getElementById('addmoney1').classList.add('click-h3');
     })

@@ -3,12 +3,27 @@ let pin = "1234"
 let avaliableMoney = 45000;
 
 
+// login page
+document.getElementById('submit').addEventListener('click', function(event){
+    event.preventDefault();// auto reload na hoyar jonno
+     const input1 = document.getElementById('number').value;
+     const input2 = document.getElementById('pin').value;
+     if(input1 === number && input2 === pin ){
+      window.location.href ="./home.html";
+         
+     }
+    else{
+      alert('sthik pin and number din')
+    }
+
+ })
+
+
+
+
 document.getElementById('log-out').addEventListener('click',function(){
     window.location.href ="./login.html";
 })
-
-
-
 
 
 // home-page
@@ -202,8 +217,7 @@ document.getElementById('click-h3-5').classList.remove('click-h3');
     })
 
 
- //
- 
+ //pay bill
  
  document.getElementById('addmoney4').addEventListener('click', function(){
     // document.getElementById('hidden2').style.display ='contents';
@@ -211,7 +225,7 @@ document.getElementById('click-h3-5').classList.remove('click-h3');
     document.getElementById('hidden1').style.display ='none';
     document.getElementById('hidden2').style.display ='none';
 
-// pay bill
+// 
 document.getElementById('addmoney4').classList.add('click');
 document.getElementById('click-h3-4').classList.add('click-h3');
 //
